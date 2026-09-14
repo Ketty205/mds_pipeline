@@ -10,3 +10,15 @@ Arhitektura sistema za paralelno procesiranje real-time stream poruka (poissonov
 ## Pokretanje testova
 ```bash
 pytest -v
+
+## Docker Pokretanje
+
+Ukoliko želite da pokrenete projekat unutar Docker kontejnera, pratite sledeće korake:
+
+1. Build-ovanje Docker slike:
+   ```bash
+   docker build -t mds .
+
+Pokretanje kontejnera:  
+   ```bash
+  docker run --rm mds
